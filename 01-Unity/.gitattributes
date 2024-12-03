@@ -1,0 +1,10 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+01-Unity/Autos/Library/PackageCache/com.unity.burst/.Runtime/*.so filter=lfs diff=lfs merge=lfs -text
+01-Unity/Autos/Library/PackageCache/com.unity.burst/.Runtime/*.dll filter=lfs diff=lfs merge=lfs -text
+01-Unity/Autos/Library/PackageCache/com.unity.burst/.Runtime/*.dylib filter=lfs diff=lfs merge=lfs -text
+01-Unity/Autos/Library/PackageCache/com.unity.burst/.Runtime/dsymutil filter=lfs diff=lfs merge=lfs -text
+*.vsconfig text eol=lf
